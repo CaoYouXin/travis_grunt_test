@@ -1,5 +1,8 @@
 {
-	"scripts": {
-		"test": "expresso test/*"
-	}
+  "scripts": {
+    "test": "expresso test/*"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }
