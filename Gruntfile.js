@@ -17,7 +17,12 @@ module.exports = function(grunt) {
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  // Default task(s).
+  // build task(s).
   grunt.registerTask('build', ['uglify']);
+
+  // test task(s).
+  grunt.registerTask('test', 'Log some stuff.', function() {
+    grunt.log.write('Logging some stuff...').ok();
+  });
 
 };
